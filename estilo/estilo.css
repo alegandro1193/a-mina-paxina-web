@@ -183,20 +183,20 @@ letter-spacing: 0px;
 text-align: center;
 }
 .gorro{
-	background-image: url("/assets/components/intro-sobre-nosotros.webp")
+	background-image: url("../assets/components/intro-sobre-nosotros.webp")
 }
 
 .mortero{
-	background-image: url("/assets/components/intro-elaboracion.webp")
+	background-image: url("../assets/components/intro-elaboracion.webp")
 }
 
 
 .bolsa{
-	background-image: url("/assets/components/intro-para-empresas.webp")
+	background-image: url("../assets/components/intro-para-empresas.webp")
 }
 
 .chocolate{
-	background-image: url("/assets/components/intro-eventos.webp")
+	background-image: url("../assets/components/intro-eventos.webp")
 }
 
 footer{
