@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+@font-face {
+    font-family:MonotypeCorsiva-Regular;
+    src: url(../assets/fonts/monotype-corsiva.ttf);
+}
+
+@font-face {
+    font-family:Montserrat-Regular;
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+body{
+   
+
+}
+
+.fondo img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+	width: 100%;
+	height: 900px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.menu img{
+	opacity: 1;
+	width: 150px;
+	height: 86,31px ;
+	margin-left: 35px;
+	margin-top: 16px;
+}
+
+.menu ul{
+	display: flex;
+	margin-top: 59px;
+	margin-right: 34px;
+	gap: 38px;
+
+}
+
+.menu li{
+	
+	opacity: 1;
+	color: rgba(255, 255, 255, 0.75);
+	font-family: "Montserrat-Regular";
+	font-size: 16px;
+	font-weight: 400;
+	font-style: Regular;
+	letter-spacing: 0px;
+	text-align: left;
+}
+.principal{
+	width: 514px;
+	height: 106px;
+	margin-top: 294px;
+	margin-left: 85px;;
+}
+.principal h2{
+	opacity: 1;
+color: rgba(193, 157, 86, 0.75);
+font-family: "MonotypeCorsiva-Regular";
+font-size: 48px;
+font-weight: 400;
+font-style: Regular;
+letter-spacing: 0px;
+text-align: center;
+}
+
+.principal button{
+	opacity: 1;
+color: rgba(255, 255, 255, 0.75);
+font-family: "Montserrat-Regular";
+font-size: 16px;
+font-weight: 400;
+font-style: Regular;
+letter-spacing: 0px;
+text-align: center;
+padding: 14px 36px 15px 36px;
+margin-top: 45px;
+margin-left: 173px;
+opacity: 1;
+background-color: rgba(193, 157, 86, 0.75);
+}
+
+.lista{
+	margin-top: 500px;
+}
+.lista ul{
+	display: flex;
+	gap: 44px;
+	margin-left: 100px;
+}
+.lista img{
+	opacity: 1;
+	width: 90px;
+	height: 92px;
+	margin-left: 106px;
+	margin-bottom: 33px;
+
+}
+.lista li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 301px;
+	height: 379px;
+	
+
+}
+
+.lista p{
+	opacity: 1;
+color: rgba(255, 255, 255, 1);
+font-family: "MonotypeCorsiva-Regular";
+font-size: 26px;
+font-weight: 400;
+font-style: Regular;
+letter-spacing: 0px;
+text-align: center;
+}
+.gorro{
+	background-image: url("/assets/components/intro-sobre-nosotros.webp")
+}
+
+.mortero{
+	background-image: url("/assets/components/intro-elaboracion.webp")
+}
+
+
+.bolsa{
+	background-image: url("/assets/components/intro-para-empresas.webp")
+}
+
+.chocolate{
+	background-image: url("/assets/components/intro-eventos.webp")
+}
+
+footer{
+	background-color: #000000;
+	height: 99px;
+	margin-top: 311px;
+}
+
+footer p{
+	padding: 40px;
+	opacity: 1;
+color: rgba(193, 157, 86, 0.75);
+font-family: "Montserrat-Regular";
+font-size: 16px;
+font-weight: 400;
+font-style: Regular;
+letter-spacing: 0px;
+}
